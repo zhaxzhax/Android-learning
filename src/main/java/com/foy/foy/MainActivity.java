@@ -1,5 +1,6 @@
 package com.foy.foy;
 
+import android.content.Context;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,5 +16,9 @@ public class MainActivity extends AppCompatActivity {
         cyperpunk.setText("赛博朋克天下第一！！！");
         cyperpunk.setTextColor(Color.RED);
         cyperpunk.setTextSize(30);
+        cyperpunk.setBackgroundColor(getResources().getColor(R.color.lightBlue));
+        int dip_10=Utils.dip2px(this,10L);
+        cyperpunk.setPadding(dip_10,dip_10,dip_10,dip_10);
     }
+
 }
