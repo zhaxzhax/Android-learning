@@ -12,13 +12,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView cyperpunk =findViewById(R.id.cyperpunk);
-        cyperpunk.setText("赛博朋克天下第一！！！");
-        cyperpunk.setTextColor(Color.RED);
-        cyperpunk.setTextSize(30);
-        cyperpunk.setBackgroundColor(getResources().getColor(R.color.lightBlue));
-        int dip_10=Utils.dip2px(this,10L);
-        cyperpunk.setPadding(dip_10,dip_10,dip_10,dip_10);
+//        TextView cyperpunk =findViewById(R.id.cyperpunk);
+//        cyperpunk.setTextColor(Color.RED);
+//        cyperpunk.setBackgroundColor(getResources().getColor(R.color.lightBlue));
+//        int dip_10=Utils.dip2px(this,10L);
+//        cyperpunk.setPadding(dip_10,dip_10,dip_10,dip_10);
     }
 
 }
